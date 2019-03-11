@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  /* Safari, Android, iOS */
+  src: local('Proxima Nova'), local('ProximaNova'), url('./assets/fonts/proximanova.ttf') format('truetype'),;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Proximanova', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
